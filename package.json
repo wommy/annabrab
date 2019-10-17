@@ -1,0 +1,16 @@
+{
+  "name": "annabrab",
+  "version": "1.0.0",
+  "description": "annabrabs site ported to tm_11ty",
+  "main": "index.js",
+  "repository": "git@github.com:wommy/annabrab.git",
+  "author": "wommy <tom@technomad.media>",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.9.0"
+  },
+	"scripts": {
+		"start": "eleventy --serve",
+		"clean": "rm -rf _site"
+	}
+}
