@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "git@github.com:wommy/technomad_cms.git",
   "author": "wommy <tom@technomad.media>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.9.0"
+  }
 }
