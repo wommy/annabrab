@@ -1,0 +1,16 @@
+{
+  "name": "technomad_11ty",
+  "version": "0.2.0",
+  "description": "technomad built with 11ty",
+  "main": "index.js",
+  "repository": "git@github.com:wommy/technomad_11ty.git",
+  "author": "wommy <tom@technomad.media>",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.9.0"
+  },
+  "scripts": {
+    "start": "eleventy --serve",
+    "clean": "rm -rf _site"
+  }
+}
