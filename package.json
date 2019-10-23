@@ -1,9 +1,9 @@
 {
-  "name": "technomad_11ty",
-  "version": "0.2.0",
-  "description": "technomad built with 11ty",
+  "name": "annabrabant",
+  "version": "0.1.0",
+  "description": "annabrabants site built with tm_11ty",
   "main": "index.js",
-  "repository": "git@github.com:wommy/technomad_11ty.git",
+  "repository": "git@github.com:wommy/annabrabant.git",
   "author": "wommy <tom@technomad.media>",
   "license": "MIT",
   "devDependencies": {

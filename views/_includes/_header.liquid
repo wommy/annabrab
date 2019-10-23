@@ -1,7 +1,12 @@
 <header>
+	<h1>{{pkg.name}}</h1>
 	<nav>
 	{%- for pages in collections.all %}
-		<a{% if pages.url == page.url %} class="active"{% endif %} href="{{ pages.url }}">{{ pages.data.title | default: pkg.name }}</a>
+		<a{% if pages.url == page.url %} class="active"{% endif %} href="{{ pages.url }}">{{ pages.data.title | default: pages.fileSlug }}</a>
 	{%- endfor %}
 	</nav>
+	<div>
+		<a href="//instagram.com/annebrab">instagram</a>
+		<span>© 2017 by Anna Brabant</span>
+	</div>
 </header>

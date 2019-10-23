@@ -1,6 +1,5 @@
 ---
 layout: _template.liquid
-title: work
 ---
-## carousel
-
+## monoprints
+## undergrad

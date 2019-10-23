@@ -1,0 +1,11 @@
+---
+layout: _template.liquid
+---
+{% for event in collections.press %}
+	<article>
+	{% for each in event.data.artist_info %}
+		<div><span>{{each}}</span></div>
+	{% endfor %}
+	{{event.templateContent}}
+	</article>
+{% endfor %}

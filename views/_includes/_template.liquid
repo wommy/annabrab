@@ -4,15 +4,16 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>{{ pkg.title }}</title>
+<title>{{ pkg.name }}</title>
 <style>
 {% include __critical.css %}
+{% include __annabrabant.css %}
 </style>
 </head>
 <body>
 {%- include _header -%}
 <main>
-	{{ content | rstrip }}
+{{ content | rstrip }}
 </main>
 <script></script>
 </body>
