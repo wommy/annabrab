@@ -1,16 +1,4 @@
 body {
 	margin: 0;
-}
-header {
-	display: flex;
-	justify-content: space-around;
-	align-items: baseline;
-}
-header h1 {
-	font-variant: small-caps;
-}
-header nav {
-	display: flex;
-	flex-basis: 30%;
-	justify-content: space-around;
+	font-family: sans-serif;
 }

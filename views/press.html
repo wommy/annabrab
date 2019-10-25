@@ -1,0 +1,12 @@
+---
+layout: _page.liquid
+---
+{% for event in collections.press %}
+	<article>
+		<p><a href='{{event.url}}'>{{event.fileSlug}}</a></p>
+	{% for each in event.data.artist_info %}
+		<div><span>{{each}}</span></div>
+	{% endfor %}
+	{{event.templateContent}}
+	</article>
+{% endfor %}

@@ -1,7 +1,6 @@
 module.exports = function(eleventyConfig) {
-	// Copy the `static/` directory 
 	eleventyConfig.addPassthroughCopy("_static");
-	
+	eleventyConfig.setBrowserSyncConfig({https: true});
 	return {
 		passthroughFileCopy: true,
 		dir: {

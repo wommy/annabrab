@@ -1,7 +1,7 @@
 {
-  "name": "annabrab",
-  "version": "1.0.0",
-  "description": "annabrabs site ported to tm_11ty",
+  "name": "annabrabant",
+  "version": "0.1.1",
+  "description": "annabrabs site built with tm_11ty",
   "main": "index.js",
   "repository": "git@github.com:wommy/annabrab.git",
   "author": "wommy <tom@technomad.media>",
