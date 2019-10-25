@@ -1,16 +1,17 @@
 ---
 layout: _post.liquid
-tags: ['press', 'July 2019']
-artist_info: [
-	'Anna Elise Brabant | Artist Exhibition',
-	'Jun. 16 - Aug. 10',
-	'Reception on Thurs., Aug. 1',
-	'6pm-8pm',
-	'Ferndale Library',
-	'222 E. Nine Mile Rd',
-	'248-546-2504'
-]
+tags: press
 ---
+July 2019
+
+    Anna Elise Brabant | Artist Exhibition
+    Jun. 16 - Aug. 10
+    Reception on Thurs., Aug. 1
+    6pm-8pm
+    Ferndale Library
+    222 E. Nine Mile Rd
+    248-546-2504
+
 Visual Artist Explores Impact of Natural vs. Manmade Compositions at Ferndale Library  
 Reception for Anna Elise Brabant’s New Exhibition on Thu., Aug. 1 | 6 pm
 
