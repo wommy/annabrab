@@ -1,5 +1,5 @@
 ---
-layout: _template.liquid
+layout: _page.liquid
 ---
 
 ## anna brabant

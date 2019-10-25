@@ -1,5 +1,5 @@
 ---
-layout: _template.liquid
+layout: _post.liquid
 tags: ['press', 'July 2019']
 artist_info: [
 	'Anna Elise Brabant | Artist Exhibition',
