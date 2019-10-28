@@ -1,6 +1,6 @@
 {
   "name": "annabrabant",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "annabrabs site built with tm_11ty",
   "main": "index.js",
   "repository": "git@github.com:wommy/annabrab.git",
@@ -8,9 +8,5 @@
   "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "^0.9.0"
-  },
-	"scripts": {
-		"start": "eleventy --serve",
-		"clean": "rm -rf _site"
-	}
+  }
 }

@@ -1,7 +1,6 @@
 ---
 layout: _page.liquid
 ---
-
 ## anna brabant
 
 STUDIO: 2144 Bagley St,	Detroit, MI
