@@ -1,5 +1,6 @@
 backend:
   name: git-gateway
+  branch: develop
 media_folder: "_static/images/"
 collections:
   - name: "work"
@@ -7,7 +8,7 @@ collections:
     folder: "work"
     create: true
     slug: "{{slug}}"
-    summary: "{{image}} - {{title}}"
+    # summary: "<img src="{{image}}" /> - {{title}}"
     fields:
       - {
         label: "Image", 
