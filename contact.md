@@ -1,12 +1,12 @@
 ---
 layout: _page.liquid
 ---
-## anna brabant
+## Contact
 
-Detroit MI, 48202
+### Studio: [2144 Bagley St,	Detroit, MI](https://goo.gl/maps/vwfyNHqMMaJTBcfD9)
 
-Tel: 586-879-7738
+### Phone: [586-879-7738](tel:586-879-7738)
 
-brabantannae@gmail.com
+### Email: [brabantannae@gmail.com](mailto:brabantannae@gmail.com)
 
 {% include form.html %}
