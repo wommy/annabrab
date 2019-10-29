@@ -1,0 +1,114 @@
+---
+layout: _template
+title: work
+---
+<!-- CAROUSEL -->
+<div>
+	<!-- img_list -->
+	{% for work in work.json %}
+	<a href="#{{ work.title }}">
+		<img src="{{ work.img }}" alt="{{ work.title }}">
+	</a>
+	{% endfor %}
+	<nav>
+		<!-- todo: btn.prev -->
+		<!-- todo: btn.next -->
+	</nav>
+</div>
+
+<!-- spotlight template -->
+<div>
+<!-- todo STYLE 
+	hidden
+	onFocus: block 
+
+	fullscreen
+-->
+	<nav>
+	<!-- todo btn.prev -->
+	<!-- todo btn.next -->
+		<!-- back arrow -->
+		<a href="#"></a>
+<!-- todo STYLE 
+	top left 
+-->
+<!-- todo SCRIPT 4 esc -->
+		<!-- btn-likes -->
+		<button>
+<!-- STYLE top right -->
+<!-- todo FORM/SCRIPT
+	form_submit increment_likes 
+-->
+			<img src="" alt="heart">
+<!-- todo: IMG.heart -->
+			<span>{{work.likes}}</span>
+<!-- todoLATER: 
+	flip: likes, img.heart 
+-->
+		</button>
+	</nav>
+	<a href="">
+<!-- todo: lightbox link -->
+		<img src="{{work.img}}" alt="{{work.title}}">
+	</a>
+	<h2>{{work.title}}</h2>
+	{% for each in work.description %}
+	<p>{{each}}</p>
+	{% endfor %}
+</div>
+
+<!-- VERSION 2, PART 1 - of above -->
+
+	<div id={{work.title}}>
+		
+	<!-- include BUTTON.close || button.showInfo -->
+		<a href="#{{work.title}}">X</a>
+<!-- STYLE top right -->
+		
+		<img src="{{work.img}}" alt="{{work.title}}">
+		
+		<!-- include NAV -->
+			<!-- prev -->
+			<!-- next -->
+
+	</div>
+
+<!-- VERSION 2, PART 2 - of above -->
+	<!-- above plus -->
+	<div id={{work.title}}-info>
+
+		<!-- back arrow -->
+		<a href="#">
+			<img src="" alt="arrow-back">
+<!-- todo src.IMG.arrow-back -->
+		</a>
+
+		<!-- like button -->
+		<button>
+			<img src="" alt="like">
+<!-- todo src.IMG.heart -->
+		</button>
+
+		<!-- HIDDEN -->
+			<!-- include BUTTON.close || button.showInfo -->
+				<a href="#{{work.title}}">X</a>
+<!-- STYLE top right -->
+
+		<!-- ART IMG -->
+		<img src="{{work.img}}" alt="{{work.title}}">
+
+		<!-- art.info -->
+		<div>
+			<h2>{{work.title}}</h2>
+			{% for each in work.description %}
+			<p>{{each}}</p>
+			{% endfor %}
+		</div>
+		
+		<!-- include NAV -->
+			<!-- prev -->
+			<!-- next -->
+
+	</div>
+
+</div>

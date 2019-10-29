@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>{{page.slug}} | {{pkg.name}}</title>
+	<style>
+		{% include __base.css %}
+		{% include __annabrabant.css %}
+	</style>
+<!-- todo STYLE links
+	text-decoration: none
+	:hover, :focus
+		inherent
+		cursor: pointer
+	:visited, :active
+		black
+-->
+</head>
+<body>
+	<!-- mobile first -->
+	<header>
+		<h1>ANNA BRABANT</h1>
+		<div class='box-black'></div>
+<!-- todo STYLE 
+	border-top,left; 3px solid black
+	height, width: 300px
+-->
+		<details>
+			<summary>
+				<img src="" alt="hamburger navigation menu">
+<!-- todo: src.hamburger -->
+			</summary>
+			<nav>
+				<a href="/">work</a>
+<!-- todo STYLE: 
+	active: grey, transparent
+-->
+				<span>|</span>
+<!-- STYLE
+	nav span
+		display: none
+	>1000px
+		display: block
+-->
+				<a href="/archive">archive</a>
+				<span>|</span>
+				<a href="/cv">CV</a>
+				<span>|</span>
+				<a href="/press">press</a>
+				<span>|</span>
+				<a href="/contact">contact</a>
+			</nav>
+		</details>
+	</header>
+	<main>
+		{{ content }}
+	</main>
+	<footer>
+<!-- STYLE 
+	footer *
+		display: block
+	>1000
+		display: inherent
+
+	>1000
+		footer position
+-->
+		<a href="//instagram.com/annebrab">
+			<img src="" alt="">
+<!-- todo src.IG_icon -->
+		</a>
+		<span>© 2017 by Anna Brabant</span>
+<!-- STYLE 
+	>1000
+		span.skinny
+-->
+	</footer>
+	<script></script>
+</body>
+</html>

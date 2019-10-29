@@ -1,0 +1,47 @@
+{
+	"monoprints": [
+		{ "url":  },
+		{ "url":  },
+		{ "url":  },
+		{ "url":  },
+	],
+	"undergrad": [
+		{ 
+			"title": "cognition",
+			"url": ""
+		},
+		{ 
+			"title": "untitled1",
+			"url": ""
+		},
+		{ 
+			"title": "the universe is expanding!",
+			"url": ""
+		},
+		{ 
+			"title": "untitled2",
+			"url": ""
+		},
+		{ 
+			"title": "unda pressha",
+			"url": ""
+		},
+		{ 
+			"title": "wading",
+			"url": ""
+		},
+		{ 
+			"title": "fluid",
+			"url": ""
+		},
+	],
+	"untitled": [
+		{ "url":  },
+		{ "url":  },
+		{ "url":  },
+		{ "url":  },
+		{ "url":  },
+		{ "url":  },
+		{ "url":  }
+	]
+}

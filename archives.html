@@ -1,0 +1,50 @@
+---
+layout: _template
+title: archives
+---
+{% for arr, index in archive.json %}
+<section>
+	<p>{{index}}</p>
+	<nav>
+<!-- todo nav.STYLE: 
+	row: 
+		2: img
+	>1000
+		4/7
+	
+	flexbox: 
+		overflow: wrap
+-->
+		{% for each, index in arr %}
+		<a href="#{{ each.url }}">
+			<img src="{{ each.url }}" alt="{{ each.title | default: index }}">
+		</a>
+		{% endfor %}
+	</nav>
+</section>
+{% endfor %}
+
+<!-- lightbox -->
+{% for arr, category in archive.json %}
+{% for each, index in arr %}
+<div id="{{category}}-{{index}}" class='hidden'>
+<!-- todo STYLE 
+	display: none
+	onFocus:
+		disply: block 
+
+	fullscreen: vh, vw: 100
+	class: hidden
+-->
+	<img src="{{each.url}}" alt="{{ index}}">
+	<nav>
+		<a href=""></a>
+<!-- todo: prev -->
+		<a href=""></a>
+<!-- todo: next -->
+		<a href="#">X</a>
+<!-- x - close -->
+	</nav>
+</div>
+{% endfor %}
+{% endfor %}
