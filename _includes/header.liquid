@@ -1,8 +1,8 @@
 <header>
 	<h1>{{pkg.name}}</h1>
 	<nav>
-	{%- for pages in collections.page %}
-		<a{% if pages.url == page.url %} class="active"{% endif %} href="{{ pages.url }}">{{ pages.data.title | default: pages.fileSlug }}</a>
+	{%- for link, index in nav.json %}
+		<a{# if link == page.url #} class="active"{# endif #} href="{{ link }}">{{ index }}</a>
 	{%- endfor %}
 	</nav>
 	<div>
