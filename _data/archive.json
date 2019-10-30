@@ -1,9 +1,9 @@
 {
 	"monoprints": [
-		{ "url":  },
-		{ "url":  },
-		{ "url":  },
-		{ "url":  },
+		{ "url": "" },
+		{ "url": "" },
+		{ "url": "" },
+		{ "url": "" }
 	],
 	"undergrad": [
 		{ 
@@ -33,15 +33,15 @@
 		{ 
 			"title": "fluid",
 			"url": ""
-		},
+		}
 	],
 	"untitled": [
-		{ "url":  },
-		{ "url":  },
-		{ "url":  },
-		{ "url":  },
-		{ "url":  },
-		{ "url":  },
-		{ "url":  }
+		{ "url": "" },
+		{ "url": "" },
+		{ "url": "" },
+		{ "url": "" },
+		{ "url": "" },
+		{ "url": "" },
+		{ "url": "" }
 	]
 }

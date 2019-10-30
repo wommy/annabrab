@@ -1,0 +1,12 @@
+{
+  "name": "annabrabant",
+  "version": "1.0.0",
+  "description": "annabrabant's site built with tm_11ty_cms",
+  "main": "index.js",
+  "repository": "git@github.com:wommy/annabrab.git",
+  "author": "wommy <tom@technomad.media>",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.9.0"
+  }
+}
