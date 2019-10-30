@@ -17,16 +17,13 @@
 		</nav>
 	</header>
 	<main>
-		<img src="{{ image }}" alt="{{title}}">
+		<img src="/_static/images/{{ title }}-750.png" class='img-scaledown' alt="{{title}}">
 		<h2>{{title}}</h2>
 		{% if description %}
 		{% for each in description %}
 			<p>{{each}}</p>
 		{% endfor %}
 		{% endif %}
-		{% for tag in tags %}
-			<span>{{tag}}</span>
-		{% endfor %}
 	</main>
 	<footer>
 		<a href="//instagram.com/annebrab">

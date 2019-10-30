@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 form {
 	display: flex;
 	flex-direction: column;
@@ -8,7 +12,61 @@ form button {
 	margin-left: auto;
 }
 
-img {
-	height: 400px;
-	width: 300px;
+.img-scaledown {
+	width: 100%;
+	height: auto;
+	object-fit: scale-down;
+}
+
+.img-halfed {
+	width: 45%;
+	height: auto;
+	object-fit: scale-down;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+}
+
+.active, a:hover {
+	text-decoration: underline;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+header nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+header nav span {
+	display: none;
+}
+
+.cyan {
+	color: cyan;
+}
+
+.magenta {
+	color: magenta;
+}
+
+.yellow {
+	color: yellow;
+}
+
+header h1 {
+	background-color: black;
+	color: white;
+	padding: 0 2rem;
 }

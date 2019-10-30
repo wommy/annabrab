@@ -1,6 +1,6 @@
 ---
-image: /_static/images/gab_7896-1-.jpg
-title: barelyslipped
+image: /_static/images/barely_slipped.jpg
+title: barely_slipped
 description:
   - 'charcoal, oil, acrylic on canvas'
   - 2018
