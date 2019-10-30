@@ -8,7 +8,7 @@ title: works
 	{% for work in collections.work %}
 	<div>
 		<a href="/work/{{ work.data.title || url_decode }}">
-			<img src="/_static/images/{{ work.data.imgSRC }}" alt="{{ work.data.title }}">
+			<img src="{{ work.data.image }}" alt="{{ work.data.title }}">
 		</a>
 	</div>
 	{% endfor %}

@@ -7,3 +7,8 @@ form button {
 	width: 5rem;
 	margin-left: auto;
 }
+
+img {
+	height: 400;
+	width: 300;
+}
