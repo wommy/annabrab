@@ -25,24 +25,24 @@ collections:
         required: false
       }      
   - name: "archive"
-      label: "Archive"
-      folder: "archive"
-      create: true
-      slug: "{{slug}}"
-      fields:
-        - {
-          label: "Image", 
-          name: "image", 
-          widget: "image"
-        }      
-        - {
-          label: "Name", 
-          name: "title", 
-          widget: "string"
-        }      
-        - {
-          label: "Description", 
-          name: "description", 
-          widget: "text",
-          required: false
-        }      
+    label: "Archive"
+    folder: "archive"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {
+        label: "Image", 
+        name: "image", 
+        widget: "image"
+      }      
+      - {
+        label: "Name", 
+        name: "title", 
+        widget: "string"
+      }      
+      - {
+        label: "Description", 
+        name: "description", 
+        widget: "text",
+        required: false
+      }      
