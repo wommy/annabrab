@@ -18,7 +18,12 @@
 	</header>
 	<main>
 		<img src="{{ imgSrc }}" alt="{{title}}">
-		<h2>{{tags[0]}}-{{title}}</h2>
+		<h2>{{title}}</h2>
+		{% if description %}
+		{% for each in description %}
+			<p>{{each}}</p>
+		{% endfor %}
+		{% endif %}
 		{% for tag in tags %}
 			<span>{{tag}}</span>
 		{% endfor %}

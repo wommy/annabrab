@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>{{page.slug}} | {{pkg.name}}</title>
+	<title>{{title}} | {{pkg.name}}</title>
 	<style>
 		{% include __base.css %}
 		{% include __annabrabant.css %}
@@ -27,11 +27,13 @@
 	border-top,left; 3px solid black
 	height, width: 300px
 -->
-		<details>
+		{% comment %}
+		<details open>
 			<summary>
 				<img src="" alt="hamburger navigation menu">
 <!-- todo: src.hamburger -->
 			</summary>
+		{% endcomment %}
 			<nav>
 				<a href="/">work</a>
 <!-- todo STYLE: 
@@ -52,7 +54,9 @@
 				<span>|</span>
 				<a href="/contact">contact</a>
 			</nav>
+		{% comment %}
 		</details>
+		{% endcomment %}
 	</header>
 	<main>
 		{{ content }}
@@ -68,7 +72,7 @@
 		footer position
 -->
 		<a href="//instagram.com/annebrab">
-			<img src="" alt="">
+			<img src="" alt="instagram icon">
 <!-- todo src.IG_icon -->
 		</a>
 		<span>© 2017 by Anna Brabant</span>

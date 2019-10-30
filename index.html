@@ -1,14 +1,16 @@
 ---
 layout: _page.liquid
-title: work
+title: works
 ---
 <!-- CAROUSEL -->
 <div>
 	<!-- img_list -->
-	{% for work in work.json %}
-	<a href="#{{ work.title }}">
-		<img src="{{ work.img }}" alt="{{ work.title }}">
-	</a>
+	{% for work in collections.work %}
+	<div>
+		<a href="/work/{{ work.data.title || url_decode }}">
+			<img src="{{ work.data.imgSrc }}" alt="{{ work.data.title }}">
+		</a>
+	</div>
 	{% endfor %}
 	<nav>
 		<!-- todo: btn.prev -->
@@ -16,6 +18,7 @@ title: work
 	</nav>
 </div>
 
+{% comment %}
 <!-- spotlight template -->
 <div>
 <!-- todo STYLE 
@@ -112,3 +115,4 @@ title: work
 	</div>
 
 </div>
+{% endcomment %}

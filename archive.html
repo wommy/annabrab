@@ -1,0 +1,108 @@
+---
+layout: _page
+title: archives
+---
+<section>
+	<h2>monoprints</h2>
+	{% for each in collections.monoprint %}
+	<a href="/archive/monoprint/{{ each.data.title }}">
+		<img src="{{ each.data.imgSrc }}" alt="{{ each.data.title }}">
+	</a>
+	{% endfor %}
+	{% comment %}
+	<nav>
+<!-- todo nav.STYLE: 
+	row: 
+		2: img
+	>1000
+		4/7
+	
+	flexbox: 
+		overflow: wrap
+-->
+		{% for each, index in arr %}
+		<a href="#{{ each.url }}">
+			<img src="{{ each.url }}" alt="{{ each.title | default: index }}">
+		</a>
+		{% endfor %}
+	</nav>
+	{% endcomment %}
+</section>
+<section>
+	<h2>undergrad</h2>
+	{% for each in collections.undergrad %}
+	<a href="/archive/undergrad/{{ each.data.title }}">
+		<img src="{{ each.data.imgSrc }}" alt="{{ each.data.title }}">
+	</a>
+	{% endfor %}
+	{% comment %}
+	<nav>
+<!-- todo nav.STYLE: 
+	row: 
+		2: img
+	>1000
+		4/7
+	
+	flexbox: 
+		overflow: wrap
+-->
+		{% for each, index in arr %}
+		<a href="#{{ each.url }}">
+			<img src="{{ each.url }}" alt="{{ each.title | default: index }}">
+		</a>
+		{% endfor %}
+	</nav>
+	{% endcomment %}
+</section>
+<section>
+	<h2>untitled</h2>
+	{% for each in collections.untitled %}
+	<a href="/archive/untitled/{{ each.data.title }}">
+		<img src="{{ each.data.imgSrc }}" alt="{{ each.data.title }}">
+	</a>
+	{% endfor %}
+	{% comment %}
+	<nav>
+<!-- todo nav.STYLE: 
+	row: 
+		2: img
+	>1000
+		4/7
+	
+	flexbox: 
+		overflow: wrap
+-->
+		{% for each, index in arr %}
+		<a href="#{{ each.url }}">
+			<img src="{{ each.url }}" alt="{{ each.title | default: index }}">
+		</a>
+		{% endfor %}
+	</nav>
+	{% endcomment %}
+</section>
+{% comment %}
+<!-- lightbox -->
+{% for arr, category in archive.json %}
+{% for each, index in arr %}
+<div id="{{category}}-{{index}}" class='hidden'>
+<!-- todo STYLE 
+	display: none
+	onFocus:
+		disply: block 
+
+	fullscreen: vh, vw: 100
+	class: hidden
+-->
+	<img src="{{each.url}}" alt="{{ index}}">
+	<nav>
+		<a href=""></a>
+<!-- todo: prev -->
+		<a href=""></a>
+<!-- todo: next -->
+		<a href="#">X</a>
+<!-- x - close -->
+	</nav>
+</div>
+{% endfor %}
+{% endfor %}
+{% endcomment %}
