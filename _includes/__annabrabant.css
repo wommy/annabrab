@@ -61,7 +61,7 @@ header .active, header a:hover {
 /* MAIN */
 
 main {
-	width: 95%;
+	width: 90%;
 	margin: auto;
 }
 
@@ -80,13 +80,14 @@ main {
 
 /* PRESS */
 
-article {
+article > p {
+	width: 95%;
+	margin-left: auto;
 	font-family: serif;
 	text-align: justify;
-}
-
-article header, article footer {
-	font-family: sans-serif;
+	font-size: 1.25rem;
+	line-height: 1.25;
+	letter-spacing: -.06rem;
 }
 
 
