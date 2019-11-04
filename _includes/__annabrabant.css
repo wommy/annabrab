@@ -78,6 +78,18 @@ main {
 }
 
 
+/* PRESS */
+
+article {
+	font-family: serif;
+	text-align: justify;
+}
+
+article header, article footer {
+	font-family: sans-serif;
+}
+
+
 /* CONTACT */
 
 form {
