@@ -6,23 +6,28 @@ p {
 	margin-top: 0;
 }
 
-/* HEADER */
 
-header {
+/* HEADER / FOOTER */
+
+body > header, body > footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	background-color: black;
+	color: white;
 }
 
-header nav {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
+body > header {
+	padding-bottom: .5rem
+}
+body > footer {
+	padding-top: .5rem
+}
+
+body > header h1 {
+	margin: .5rem 1.25rem;
 	width: 100%;
-}
-
-header nav span {
-	display: none;
+	text-align: center;
 }
 
 .color1 {
@@ -37,23 +42,22 @@ header nav span {
 	color: rgb(0,255,255);
 }
 
-header h1 {
-	background-color: black;
-	color: white;
-	padding: .5rem 1.25rem;
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
 	width: 100%;
-	text-align: center;
 }
 
-header a {
+nav a {
 	text-decoration: none;
 }
 
-header a:visited {
-	color: black;
+nav a:visited {
+	color: white;
 }
 
-header .active, header a:hover {
+nav .active, nav a:hover {
 	text-decoration: underline;
 }
 
@@ -62,7 +66,7 @@ header .active, header a:hover {
 
 main {
 	width: 90%;
-	margin: auto;
+	margin: 1.5rem auto;
 }
 
 .img-scaledown {

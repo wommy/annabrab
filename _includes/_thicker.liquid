@@ -4,18 +4,14 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>{{page.slug}} | {{pkg.name}}</title>
+	<title>{{title}} | {{pkg.name}}</title>
 	<style>
 		{% include __base.css %}
 		{% include __annabrabant.css %}
 	</style>
 </head>
 <body>
-	<header>
-		<nav>	
-			<a href="/"><-back</a>
-		</nav>
-	</header>
+	{% include header %}
 	<main>
 		<img src="/_static/images/{{ title }}-750.png" class='img-scaledown' alt="{{title}}">
 		<h2>{{title}}</h2>
@@ -25,12 +21,7 @@
 		{% endfor %}
 		{% endif %}
 	</main>
-	<footer>
-		<a href="//instagram.com/annebrab">
-			<img src="" alt="">
-		</a>
-		<span>© 2017 by Anna Brabant</span>
-	</footer>
+	{% include footer %}
 	<script></script>
 </body>
 </html>

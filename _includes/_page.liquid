@@ -19,68 +19,11 @@
 -->
 </head>
 <body>
-	<!-- mobile first -->
-	<header>
-		<div class='box-black'></div>
-<!-- todo STYLE 
-	border-top,left; 3px solid black
-	height, width: 300px
--->
-		{% comment %}
-		<details open>
-			<summary>
-				<img src="" alt="hamburger navigation menu">
-<!-- todo: src.hamburger -->
-			</summary>
-		{% endcomment %}
-			<nav>
-				<a href="/">work</a>
-<!-- todo STYLE: 
-	active: grey, transparent
--->
-				<span>|</span>
-<!-- STYLE
-	nav span
-		display: none
-	>1000px
-		display: block
--->
-				<a href="/archive">archive</a>
-				<span>|</span>
-				<a href="/cv">CV</a>
-				<span>|</span>
-				<a href="/press">press</a>
-				<span>|</span>
-				<a href="/contact">contact</a>
-			</nav>
-		<h1><span class='color1'>A</span>NNAB<span class='color2'>R</span>ABAN<span class='color3'>T</span></h1>
-		{% comment %}
-		</details>
-		{% endcomment %}
-	</header>
+	{% include header-thick %}
 	<main>
 		{{ content }}
 	</main>
-	<footer>
-<!-- STYLE 
-	footer *
-		display: block
-	>1000
-		display: inherent
-
-	>1000
-		footer position
--->
-		<a href="//instagram.com/annebrab">
-			<img src="" alt="instagram icon">
-<!-- todo src.IG_icon -->
-		</a>
-		<span>© 2017 by Anna Brabant</span>
-<!-- STYLE 
-	>1000
-		span.skinny
--->
-	</footer>
+	{% include footer %}
 	<script></script>
 </body>
 </html>
