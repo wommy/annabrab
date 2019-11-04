@@ -2,39 +2,11 @@
 	box-sizing: border-box;
 }
 
-form {
-	display: flex;
-	flex-direction: column;
+p {
+	margin-top: 0;
 }
 
-form button {
-	width: 5rem;
-	margin-left: auto;
-}
-
-.img-scaledown {
-	width: 100%;
-	height: auto;
-	object-fit: scale-down;
-}
-
-.img-halfed {
-	width: 45%;
-	height: auto;
-	object-fit: scale-down;
-}
-
-a {
-	text-decoration: none;
-}
-
-a:visited {
-	color: black;
-}
-
-.active, a:hover {
-	text-decoration: underline;
-}
+/* HEADER */
 
 header {
 	display: flex;
@@ -69,4 +41,61 @@ header h1 {
 	background-color: black;
 	color: white;
 	padding: .5rem 1.25rem;
+	width: 100%;
+	text-align: center;
+}
+
+header a {
+	text-decoration: none;
+}
+
+header a:visited {
+	color: black;
+}
+
+header .active, header a:hover {
+	text-decoration: underline;
+}
+
+
+/* MAIN */
+
+main {
+	width: 95%;
+	margin: auto;
+}
+
+.img-scaledown {
+	width: 100%;
+	height: auto;
+	object-fit: scale-down;
+}
+
+.img-halfed {
+	width: 45%;
+	height: auto;
+	object-fit: scale-down;
+}
+
+
+/* CONTACT */
+
+form {
+	display: flex;
+	flex-direction: column;
+	margin: 1rem 0;
+}
+
+form input, form textarea, form button {
+	padding: .5rem;
+	margin: .25rem 0;
+}
+
+form input, form textarea {
+	padding-left: 2.5rem;
+}
+
+form button {
+	width: 5rem;
+	margin-left: auto;
 }
