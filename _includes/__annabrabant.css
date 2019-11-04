@@ -53,20 +53,20 @@ header nav span {
 	display: none;
 }
 
-.cyan {
-	color: cyan;
+.color1 {
+	color: rgb(255,255,0);
 }
 
-.magenta {
-	color: magenta;
+.color2 {
+	color: rgb(255,0,255);
 }
 
-.yellow {
-	color: yellow;
+.color3 {
+	color: rgb(0,255,255);
 }
 
 header h1 {
 	background-color: black;
 	color: white;
-	padding: 0 2rem;
+	padding: .5rem 1.25rem;
 }
