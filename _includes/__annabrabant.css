@@ -89,14 +89,30 @@ main {
 
 /* PRESS */
 
-article > p {
+article {
 	width: 95%;
-	margin-left: auto;
+	margin: auto;
+}
+
+article header div {
+	align-self: flex-start;
+	font-size: 1.75rem;
+	background-color: 
+}
+
+article > p {
+	margin: 0 auto 1rem;
 	font-family: serif;
 	text-align: justify;
 	font-size: 1.25rem;
 	line-height: 1.25;
 	letter-spacing: -.06rem;
+}
+
+article header, article footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 
