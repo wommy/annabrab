@@ -25,9 +25,14 @@ body > footer {
 }
 
 body > header h1 {
-	margin: .5rem 1.25rem;
+	margin: .5rem 0;
 	width: 100%;
 	text-align: center;
+}
+
+header > a {
+	color: white;
+	text-decoration: none;
 }
 
 .color1 {
