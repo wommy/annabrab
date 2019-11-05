@@ -1,6 +1,5 @@
 ---
+image: /_static/images/rivers.jpg
 title: rivers
-imgSRC: 
 description: ["oil on canvas", 2017]
-likes: 0
 ---

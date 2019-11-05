@@ -1,6 +1,5 @@
 ---
+image: /_static/images/data.jpg
 title: data
-imgSRC: /
 description: ["acrylic and oil pastel on linen"]
-likes: 1
 ---
