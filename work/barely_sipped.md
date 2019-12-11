@@ -4,5 +4,6 @@ title: barely_sipped
 description:
   - 'charcoal, oil, acrylic on canvas'
   - 2018
+order: 1
 ---
 
