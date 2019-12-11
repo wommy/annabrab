@@ -4,11 +4,11 @@ title: archives
 ---
 <section>
 	<h2>monoprints</h2>
-	{% for each in collections.monoprint %}
-	<a href="/archive/monoprint/{{ each.data.title }}">
-		<img src="{{ each.data.imgSrc }}" alt="{{ each.data.title }}">
-	</a>
-	{% endfor %}
+	<div class="twowide">
+		{% for each in collections.monoprint %}
+		<img class="quarterd" src="/_static/images/{{ each.data.title }}.jpg" alt="{{ each.data.title }}">
+		{% endfor %}
+	</div>
 	{% comment %}
 	<nav>
 <!-- todo nav.STYLE: 
@@ -29,12 +29,13 @@ title: archives
 	{% endcomment %}
 </section>
 <section>
+
 	<h2>undergrad</h2>
-	{% for each in collections.undergrad %}
-	<a href="/archive/undergrad/{{ each.data.title }}">
-		<img src="{{ each.data.imgSrc }}" alt="{{ each.data.title }}">
-	</a>
-	{% endfor %}
+	<div class="twowide">
+		{% for each in collections.undergrad %}
+		<img class="quarterd" src="/_static/images/{{ each.data.title }}.png" alt="{{ each.data.title }}">
+		{% endfor %}
+	</div>
 	{% comment %}
 	<nav>
 <!-- todo nav.STYLE: 
@@ -54,6 +55,7 @@ title: archives
 	</nav>
 	{% endcomment %}
 </section>
+{% comment %}
 <section>
 	<h2>untitled</h2>
 	{% for each in collections.untitled %}
@@ -61,7 +63,6 @@ title: archives
 		<img src="{{ each.data.imgSrc }}" alt="{{ each.data.title }}">
 	</a>
 	{% endfor %}
-	{% comment %}
 	<nav>
 <!-- todo nav.STYLE: 
 	row: 
@@ -78,8 +79,8 @@ title: archives
 		</a>
 		{% endfor %}
 	</nav>
-	{% endcomment %}
 </section>
+{% endcomment %}
 {% comment %}
 <!-- lightbox -->
 {% for arr, category in archive.json %}

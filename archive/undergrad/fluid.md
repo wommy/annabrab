@@ -1,5 +1,0 @@
----
-title: fluid
-imgSrc: 
----
-

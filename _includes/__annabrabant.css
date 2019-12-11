@@ -82,6 +82,10 @@ main {
 	width: 49%;
 }
 
+.twowide .quarterd {
+	width: 24%;
+}
+
 .img-scaledown {
 	width: 100%;
 	height: auto;

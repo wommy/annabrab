@@ -1,5 +1,0 @@
----
-title: theUniverseIsExpanding
-imgSrc: 
----
-
