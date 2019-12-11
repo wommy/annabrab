@@ -6,6 +6,20 @@ p {
 	margin-top: 0;
 }
 
+.color1 {
+	/*color: rgb(255,255,0);*/
+	color: #EED484;
+}
+
+.color2 {
+	/*color: rgb(255,0,255);*/
+	color: #C4A4A7;
+}
+
+.color3 {
+	/*color: rgb(0,255,255);*/
+	color: #7A99AC;
+}
 
 /* HEADER / FOOTER */
 
@@ -13,8 +27,6 @@ body > header, body > footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: black;
-	color: white;
 }
 
 body > header {
@@ -30,23 +42,6 @@ body > header h1 {
 	text-align: center;
 }
 
-header > a {
-	color: white;
-	text-decoration: none;
-}
-
-.color1 {
-	color: rgb(255,255,0);
-}
-
-.color2 {
-	color: rgb(255,0,255);
-}
-
-.color3 {
-	color: rgb(0,255,255);
-}
-
 nav {
 	display: flex;
 	flex-direction: row;
@@ -54,12 +49,11 @@ nav {
 	width: 100%;
 }
 
-nav a {
-	text-decoration: none;
-}
-
+header > a, 
+nav a,
 nav a:visited {
-	color: white;
+	text-decoration: none;
+	color: black;
 }
 
 nav .active, nav a:hover {
@@ -70,8 +64,22 @@ nav .active, nav a:hover {
 /* MAIN */
 
 main {
-	width: 90%;
-	margin: 1.5rem auto;
+	width: 95%;
+	margin: 1rem auto;
+}
+
+.twowide{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.twowide .landscape {
+	flex-grow: 2;
+	width: 100%;
+}
+
+.twowide div {
+	width: 49%;
 }
 
 .img-scaledown {
@@ -81,7 +89,7 @@ main {
 }
 
 .img-halfed {
-	width: 45%;
+	width: 100%;
 	height: auto;
 	object-fit: scale-down;
 }

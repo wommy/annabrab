@@ -4,5 +4,6 @@ title: flu
 description:
   - oil and graphite on canvas
   - 2018
+landscape: true
 ---
 
