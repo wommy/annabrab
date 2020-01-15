@@ -71,19 +71,34 @@ main {
 .twowide{
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
 .twowide .landscape {
 	flex-grow: 2;
-	width: 100%;
+	width: 80%;
+	align-items: center;
+  justify-content: center;
 }
 
 .twowide div {
-	width: 49%;
+	width: 40%;
+	display: flex;
+}
+
+.twowide div a{
+	align-items: center;
+  justify-content: center;
+  height: 95%;
+  width: 95%;
+  margin-bottom: .5rem;
+  display: flex;
 }
 
 .twowide .quarterd {
-	width: 24%;
+	width: 22%;
+	height: 22%;
+	margin: .25rem;
 }
 
 .img-scaledown {
@@ -94,8 +109,10 @@ main {
 
 .img-halfed {
 	width: 100%;
-	height: auto;
+	height: 90%;
 	object-fit: scale-down;
+	align-items: center;
+  justify-content: center;
 }
 
 
