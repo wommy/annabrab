@@ -1,3 +1,3 @@
-module.exports = function(eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("_static");
+module.exports = (config) => {
+  config.addPassthroughCopy("_static");
 };
