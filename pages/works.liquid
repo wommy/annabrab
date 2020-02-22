@@ -1,8 +1,10 @@
 ---
 layout: _post
-#pagination:
-#  data: work
-#  size: 11
+pagination:
+  data: works
+  size: 1
+  alias: work
+permalink: "work/{{ work.title }}/"
 ---
 <img src="/__static/images/{{ title }}-half.jpg" alt="{{ title }}" class='img-scaledown'>
 <h2>{{ title }}</h2>
