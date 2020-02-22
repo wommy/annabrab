@@ -8,7 +8,7 @@ title: works
 	{% for work in collections.work %}
 	<div{% if work.data.landscape %} class="landscape"{% endif %} style="order:{{work.data.order}};">
 		<a href="/work/{{ work.data.title }}">
-			<img class='img-halfed' src="_static/images/{{ work.data.title }}-quarter.jpg" alt="{{ work.data.title }}">
+			<img class='img-halfed' src="__static/images/{{ work.data.title }}-quarter.jpg" alt="{{ work.data.title }}">
 		</a>
 	</div>
 	{% endfor %}

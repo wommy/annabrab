@@ -1,3 +1,3 @@
 module.exports = (config) => {
-  config.addPassthroughCopy("_static");
+  config.addPassthroughCopy("__static");
 };
