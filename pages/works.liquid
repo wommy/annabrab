@@ -6,10 +6,10 @@ pagination:
   alias: work
 permalink: "work/{{ work.title }}/"
 ---
-<img src="/__static/images/{{ title }}-half.jpg" alt="{{ title }}" class='img-scaledown'>
-<h2>{{ title }}</h2>
-{%- if description %}
-{%- for each in description %}
+<img src="/__static/images/{{ work.title }}-half.jpg" alt="{{ work.title }}" class='img-scaledown'>
+<h2>{{ work.title }}</h2>
+{%- if work.description %}
+{%- for each in work.description %}
 	<p>{{ each }}</p>
 {%- endfor %}
 {%- endif %}
