@@ -1,0 +1,23 @@
+[
+	{
+		"tag": "monoprint",
+		"arr": [
+			1,
+			2,
+			3,
+			4
+		]
+	},
+	{
+		"tag": "undergrad",
+		"arr": [
+			"cognition",
+			"fluid",
+			"theUniverseIsExpanding",
+			"undaPressha",
+			"untitled1",
+			"untitled2",
+			"wading"
+		]
+	}
+]

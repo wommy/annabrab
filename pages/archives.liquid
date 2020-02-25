@@ -1,0 +1,15 @@
+---
+layout: _post
+pagination:
+  data: goofin
+  size: 1
+  alias: each
+permalink: "/a/{{ each }}/index.html"
+---
+<article>
+	<img src="/__static/images/{{ each | replace: '/', '-' }}.jpg" alt="{{ each }}" class="img-scaledown">
+	<h2>{{ each | replace: '/', '-' }}</h2>
+	{%- for tag in tags %}
+		<span>{{ tag }}</span>
+	{%- endfor %}
+</article>
