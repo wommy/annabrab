@@ -1,27 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>{{title}} | {{pkg.name}}</title>
-	<style>
-		{% include __base.css %}
-		{% include __annabrabant.css %}
-	</style>
-</head>
-<body>
-	{% include header %}
-	<main>
-		<img src="/__static/images/{{ title }}-half.jpg" class='img-scaledown' alt="{{title}}">
-		<h2>{{title}}</h2>
-		{% if description %}
-		{% for each in description %}
-			<p>{{each}}</p>
-		{% endfor %}
-		{% endif %}
-	</main>
-	{% include footer %}
-	<script></script>
-</body>
-</html>
+---
+layout: _post
+---
+<img src="/__static/images/{{ title }}-half.jpg" alt="{{ title }}" class='img-scaledown'>
+<h2>{{ title }}</h2>
+{%- if description %}
+{%- for each in description %}
+	<p>{{ each }}</p>
+{%- endfor %}
+{%- endif %}

@@ -1,30 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>{{title}} | {{pkg.name}}</title>
-	<style>
-		{% include __base.css %}
-		{% include __annabrabant.css %}
-	</style>
-	<script src="https://kit.fontawesome.com/22822c8616.js" crossorigin="anonymous"></script>
-<!-- todo STYLE links
-	text-decoration: none
-	:hover, :focus
-		inherent
-		cursor: pointer
-	:visited, :active
-		black
--->
-</head>
-<body>
-	{% include header-thick %}
-	<main>
-		{{ content }}
-	</main>
-	{% include footer %}
-	<script></script>
-</body>
-</html>
+---
+layout: _default
+---
+{% include header %}
+<main>
+	{{ content }}
+</main>
