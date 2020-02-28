@@ -1,10 +1,7 @@
 ---
-image: /_static/images/flu.jpg
-title: flu
-description:
-  - oil and graphite on canvas
-  - 2018
-landscape: true
 order: 5
+title: "flu"
+year: 2018
+description: "oil and graphite on canvas"
+landscape: true
 ---
-

@@ -1,7 +1,7 @@
 ---
-image: /_static/images/rivers.jpg
-title: rivers
-description: ["oil on canvas", 2017]
-landscape: true
 order: 6
+title: "rivers"
+year: 2017
+description: "oil on canvas"
+landscape: true
 ---

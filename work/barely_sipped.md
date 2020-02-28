@@ -1,9 +1,6 @@
 ---
-image: /_static/images/barely_sipped.jpg
-title: barely_sipped
-description:
-  - 'charcoal, oil, acrylic on canvas'
-  - 2018
 order: 1
+title: "barely_sipped"
+year: 2018
+description: "charcoal, oil, acrylic on canvas"
 ---
-

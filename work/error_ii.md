@@ -1,6 +1,6 @@
 ---
-image: /_static/images/error_ii.jpg
-title: error_ii
-description: ["oil on canvas", 2017]
 order: 7
+title: "error_ii"
+year: 2017
+description: "oil on canvas"
 ---

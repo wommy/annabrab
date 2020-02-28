@@ -1,6 +1,6 @@
 ---
-image: /_static/images/idk.jpg
-title: idk
-description: ["collage on canvas", 2019]
 order: 3
+title: "idk"
+year: 2019
+description: "collage on canvas"
 ---

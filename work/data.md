@@ -1,6 +1,6 @@
 ---
-image: /_static/images/data.jpg
-title: data
-description: ["acrylic and oil pastel on linen", 2019]
 order: 4
+title: "data"
+year: 2019
+description: "acrylic and oil pastel on linen"
 ---

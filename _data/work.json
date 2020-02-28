@@ -1,68 +1,49 @@
 [
 	{
-		"img": "",
-		"title": "data",
-		"description": ["acrylic and oil pastel on linen"],
-		"likes": 1
-	},
-	{
-		"img": "",
-		"title": "Untitled",
-		"description": ["pastels, ink", "monoprint", 2019],
-		"likes": 2
-	},
-	{
-		"img": "",
+		"title": "barely_sipped",
+		"year": 2018,
+		"description": "charcoal, oil, acrylic on canvas"
+	},{
+		"title": "untitled_monoprint",
+		"year": 2019,
+		"description": "pastels, ink, monoprint"
+	},{
 		"title": "idk",
-		"description": ["collage on canvas", 2019],
-		"likes": 1
-	},
-	{
-		"img": "",
-		"title": "Barely Sipped",
-		"description": ["charcoal, oil, acrylic on canvas", 2018],
-		"likes": 3
-	},
-	{
-		"img": "",
-		"title": "Flu",
-		"description": ["oil and graphite on canvas", 2018],
-		"likes": 2
-	},
-	{
-		"img": "",
-		"title": "Rivers",
-		"description": ["oil on canvas", 2017],
-		"likes": 0
-	},
-	{
-		"img": "",
-		"title": "Error I",
-		"description": ["oil and graphite on canvas", 2017],
-		"likes": 1
-	},
-	{
-		"img": "",
-		"title": "Error II",
-		"description": ["oil on canvas", 2017],
-		"likes": 2
-	},
-	{
-		"img": "",
-		"title": "Markings",
-		"description": ["oil on canvas", 2016],
-		"likes": 0
-	},
-	{
-		"img": "",
-		"title": "Swarm",
-		"description": ["oil, collage, paste, glass on canvas", 2016],
-		"likes": 0
-	},
-	{
-		"img": "",
-		"title": "Untitled",
-		"description": ["oil, house paint on canvas", 2016],
-		"likes": 0
+		"year": 2019,
+		"description": "collage on canvas"
+	},{
+		"title": "data",
+		"year": 2019,
+		"description": "acrylic and oil pastel on linen"
+	},{
+		"title": "flu",
+		"year": 2018,
+		"description": "oil and graphite on canvas",
+		"landscape": "true"
+	},{
+		"title": "rivers",
+		"year": 2017,
+		"description": "oil on canvas",
+		"landscape": "true"
+	},{
+		"title": "error_ii",
+		"year": 2017,
+		"description": "oil on canvas"
+	},{
+		"title": "error_i",
+		"year": 2017,
+		"description": "oil and graphite on canvas"
+	},{
+		"title": "markings",
+		"year": 2016,
+		"description": "oil on canvas"
+	},{
+		"title": "swarm",
+		"year": 2016,
+		"description": "oil, collage, paste, glass on canvas"
+	},{
+		"title": "untitled",
+		"year": 2016,
+		"description": "oil, house paint on canvas"
 	}
 ]
