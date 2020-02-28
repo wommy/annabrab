@@ -1,8 +1,13 @@
 ---
 layout: _post
+#pagination:
+#  data: archive
+#  size: 4
 ---
-<img src="/__static/images/{{ image }}" alt="{{ title }}">
-<h2>{{ tags[0] }}-{{ title }}</h2>
-{%- for tag in tags %}
-	<span>{{ tag }}</span>
-{%- endfor %}
+<article>
+	<img src="/__static/images/{{ tags[1] }}-{{ title }}{% if tags[1] == "monoprint" %}.jpg{% elsif tags[1] == "undergrad" %}.png{% endif %}" alt="{{ tags[1] }}-{{ title }}" class="img-scaledown">
+	<h2>{{ title }}</h2>
+	{%- for tag in tags %}
+		<span>{{ tag }}</span>
+	{%- endfor %}
+</article>

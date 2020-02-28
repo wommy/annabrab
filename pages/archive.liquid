@@ -1,107 +1,65 @@
 ---
-title: archives
+title: archive
 ---
+{%- for category in archive %}
 <section>
-	<h2>monoprints</h2>
+	<h2>{{ category[0] }}</h2>
 	<div class="twowide">
-		{% for each in collections.monoprint %}
-		<img class="quarterd" src="/__static/images/{{ each.data.title }}.jpg" alt="{{ each.data.title }}">
-		{% endfor %}
+		{%- for each in category[1] %}
+		<a href="{{ category[0] }}/{{ each }}" class="quarterd">
+			<img src="/__static/images/{{ category[0] }}-{{ each }}{% if category[0] == "monoprint" %}.jpg{% elsif category[0] == "undergrad" %}.png{% endif %}" alt="{{ category[0] }}-{{ each }}" class="img-scaledown">
+		</a>
+		{%- endfor %}
 	</div>
-	{% comment %}
-	<nav>
-<!-- todo nav.STYLE: 
-	row: 
-		2: img
-	>1000
-		4/7
-	
-	flexbox: 
-		overflow: wrap
--->
-		{% for each, index in arr %}
-		<a href="#{{ each.url }}">
-			<img src="{{ each.url }}" alt="{{ each.title | default: index }}">
-		</a>
-		{% endfor %}
-	</nav>
-	{% endcomment %}
 </section>
-<section>
-	<h2>undergrad</h2>
-	<div class="twowide">
-		{% for each in collections.undergrad %}
-		<img class="quarterd" src="/__static/images/{{ each.data.title }}.png" alt="{{ each.data.title }}">
-		{% endfor %}
-	</div>
-	{% comment %}
-	<nav>
-<!-- todo nav.STYLE: 
-	row: 
-		2: img
-	>1000
-		4/7
-	
-	flexbox: 
-		overflow: wrap
--->
-		{% for each, index in arr %}
-		<a href="#{{ each.url }}">
-			<img src="{{ each.url }}" alt="{{ each.title | default: index }}">
-		</a>
-		{% endfor %}
-	</nav>
-	{% endcomment %}
-</section>
-{% comment %}
-<section>
-	<h2>untitled</h2>
-	{% for each in collections.untitled %}
-	<a href="/archive/untitled/{{ each.data.title }}">
-		<img src="{{ each.data.imgSrc }}" alt="{{ each.data.title }}">
-	</a>
-	{% endfor %}
-	<nav>
-<!-- todo nav.STYLE: 
-	row: 
-		2: img
-	>1000
-		4/7
-	
-	flexbox: 
-		overflow: wrap
--->
-		{% for each, index in arr %}
-		<a href="#{{ each.url }}">
-			<img src="{{ each.url }}" alt="{{ each.title | default: index }}">
-		</a>
-		{% endfor %}
-	</nav>
-</section>
-{% endcomment %}
-{% comment %}
-<!-- lightbox -->
-{% for arr, category in archive.json %}
-{% for each, index in arr %}
-<div id="{{category}}-{{index}}" class='hidden'>
-<!-- todo STYLE 
-	display: none
-	onFocus:
-		disply: block 
+{%- endfor %}
+{%- comment %}
 
-	fullscreen: vh, vw: 100
-	class: hidden
--->
-	<img src="{{each.url}}" alt="{{ index}}">
-	<nav>
-		<a href=""></a>
-<!-- todo: prev -->
-		<a href=""></a>
-<!-- todo: next -->
-		<a href="#">X</a>
-<!-- x - close -->
-	</nav>
-</div>
-{% endfor %}
-{% endfor %}
-{% endcomment %}
+BAE recreate olde carousel
+
+	html, liquid
+		<nav>
+			{% for each, index in arr %}
+			<a href="#{{ each.url }}">
+				<img src="{{ each.url }}" alt="{{ each.title | default: index }}">
+			</a>
+			{% endfor %}
+		</nav>
+
+	style
+		row: 
+			2: img
+			@media >1000
+				4/7
+		flexbox: 
+			overflow: wrap
+
+
+BAE olde lightbox
+
+	<!-- lightbox -->
+	{% for arr, category in archive.json %}
+	{% for each, index in arr %}
+	<div id="{{category}}-{{index}}" class='hidden'>
+	<!-- todo STYLE 
+		display: none
+		onFocus:
+			disply: block 
+
+		fullscreen: vh, vw: 100
+		class: hidden
+	-->
+		<img src="{{each.url}}" alt="{{ index}}">
+		<nav>
+			<a href=""></a>
+	<!-- todo: prev -->
+			<a href=""></a>
+	<!-- todo: next -->
+			<a href="#">X</a>
+	<!-- x - close -->
+		</nav>
+	</div>
+	{% endfor %}
+	{% endfor %}
+
+{%- endcomment %}
