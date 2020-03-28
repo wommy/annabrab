@@ -1,35 +1,16 @@
----
-title: contact
----
-<p>
-	<a href="https://goo.gl/maps/LUeM1qwEjmsVLSbF7">to Maps</a>
-	<br>
-	<span>Studio:</span>
-	<span>2144 Bagley St, Detroit, MI</span>
-</p>
+frontmatter:
+	title: contact
 
-<p>
-	<a href="mailto:brabantannae@gmail.com?Subject=from%20annabrabant.com%20%7C%20">to Email</a>
-	<br>
-	<span>Email:</span>
-	<span>brabantannae@gmail.com</span>
-</p>
+ANNA BRABANT
+Detroit MI, 48202
 
-<!-- <p>
-	<span>Phone:</span>
-	<span>586-879-7738</span>
-	<a href="tel:1-586-879-7738">to Call</a>
-	<a href="sms:1-586-879-7738">to Text</a>
-</p> -->
+Tel: 586-879-7738
 
-<form action="">
-	<label for="name">Name</label>
-	<input type="text" name='name' placeholder='* Name' required>
-	<label for="email">Email</label>
-	<input type="text" name='email 'placeholder='* Email' required>
-	<label for="subject">Subject</label>
-	<input type="text" name="subject" placeholder='Subject'>
-	<label for="message">Message</label>
-	<textarea name="message" placeholder='Message' cols="30" rows="10"></textarea>
-	<button type='submit'>Send</button>
-</form>
+brabantannae@gmail.com
+
+form
+	input name *
+	input email *
+	input subject
+	input message
+	input submit

@@ -1,102 +1,40 @@
----
-title: CV
----
-<h2>-EDUCATION-</h2>
-<!-- STYLE 
-	h2: bold, underline 
--->
-<p>
-	<div>2013-DEC</div>
-	<div>BFA Fine Arts-Emphasis in Painting, </div>
-	<div>Western Michigan University, </div>
-		<div>Kalamazoo, MI</div>
-</p>
+frontmatter:
+	title: "CV"
 
-<p>
-	<div>2009-JUN</div>
-	<div>Lake Shore High School, </div>
-		<div>St. Clair Shores, MI</div>
-</p>
+STUDIO:
+	2144 Bagley St, 
+	Detroit, MI
 
-<h2>-EXHIBITIONS-</h2>
+-EDUCATION-:
+	2013-DEC
+		BFA Fine Arts-Emphasis in Painting, Western Michigan University, Kalamazoo, MI
+	2009-JUN
+		Lake Shore High School, St. Clair Shores, MI
 
-<p>
-	<div>2019-JUN</div>
-	<div>Anna Brabant: Paintings and Prints, </div>
-		<div>Ferndale Public Library, </div>
-			<div>Ferndale, MI</div>
-</p>
+-EXHIBITIONS-:
+	2019-JUN
+		Anna Brabant:Paintings and Prints, Ferndale Public Library, Ferndale, MI
+	2016-JAN
+		New Works: Anna Brabant, Detroit, MI
+	2015-SEPT
+		Grimm Group Show, Junction Hall, Detroit, MI
+	2015-JUL
+		RiOT, Seraphine Collective Group Show, UFO Factory, Detroit, MI
+	2014-MAR
+		Paintings by Anna Brabant, Plata y Oro, Kalamazoo, MI
+	2014-JAN
+		Print—Works: Group Show, DeVries Gallery, Kalamazoo, MI
+	2013-NOV
+		Being, Solo Exhibition, DeVries Gallery, Kalamazoo, MI
+	2013-APR  
+		Paintings by Anna Brabant: Saniwax Gallery, Kalamazoo, MI
+	2012-OCT
+		ArtPrize: Gwen Frostic School of Art Exhibition, Grand Rapids, MI
+	2010-SEPT
+		Gwen Frostic School of Art Foundation Show, Kalamazoo, MI
 
-<p>
-	<div>2016-JAN</div>
-	<div>New Works: Anna Brabant, </div>
-		<div>Detroit, MI</div>
-</p>
-
-<p>
-	<div>2015-SEPT</div>
-	<div>Grimm Group Show, </div>
-		<div>Junction Hall, </div>
-			<div>Detroit, MI</div>
-</p>
-
-<p>
-	<div>2015-JUL</div>
-	<div>RiOT, Seraphine Collective Group Show, </div>
-		<div>UFO Factory, </div>
-			<div>Detroit, MI</div>
-</p>
-
-<p>
-	<div>2014-MAR</div>
-	<div>Paintings by Anna Brabant, </div>
-		<div>Plata y Oro, </div>
-			<div>Kalamazoo, MI</div>
-</p>
-
-<p>
-	<div>2014-JAN</div>
-	<div>Print—Works: Group Show,</div>
-		<div>DeVries Gallery, </div>
-			<div>Kalamazoo, MI</div>
-</p>
-
-<p>
-	<div>2013-NOV</div>
-	<div>Being, Solo Exhibition, </div>
-		<div>DeVries Gallery, </div>
-			<div>Kalamazoo, MI</div>
-</p>
-
-<p>
-	<div>2013-APR  </div>
-	<div>Paintings by Anna Brabant: </div>
-		<div>Saniwax Gallery, </div>
-			<div>Kalamazoo, MI</div>
-</p>
-
-<p>
-	<div>2012-OCT</div>
-	<div>ArtPrize: Exhibition, </div>
-		<div>Gwen Frostic School of Art </div>
-			<div>Grand Rapids, MI</div>
-</p>
-
-<p>
-	<div>2010-SEPT</div>
-	<div>Foundation Show, </div>
-		<div>Gwen Frostic School of Art </div>
-			<div>Kalamazoo, MI</div>
-</p>
-
-<h2>-EMPLOYMENT-</h2>
-
-<p>
-	<div>2015-PRESENT</div>
-	<div>Third Man Records-Detroit</div>
-</p>
-
-<p>
-	<div>2013-2015</div>
-	<div>Total Loss Services Corporation</div>
-</p>
+-EMPLOYMENT-
+	2015-PRESENT
+		Third Man Records-Detroit
+	2013-2015
+		Total Loss Services Corporation
