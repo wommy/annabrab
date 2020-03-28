@@ -1,7 +1,7 @@
 ---
 layout: _default
 ---
-{% include header %}
+{% include "header.njk" %}
 <main>
-	{{ content }}
+	{{ content | safe }}
 </main>

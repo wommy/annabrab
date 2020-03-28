@@ -6,8 +6,8 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>{{title}} | {{pkg.name}}</title>
 	<style>
-		{% include __base.css %}
-		{% include __annabrabant.css %}
+		{% include "__base.css" %}
+		{% include "__annabrabant.css" %}
 	</style>
 <!-- todo STYLE links
 	text-decoration: none
@@ -19,8 +19,8 @@
 -->
 </head>
 <body>
-	{{ content }}
-	{% include footer %}
+	{{ content | safe }}
+	{% include "footer.njk" %}
 	<script src="https://kit.fontawesome.com/22822c8616.js" crossorigin="anonymous"></script>
 </body>
 </html>

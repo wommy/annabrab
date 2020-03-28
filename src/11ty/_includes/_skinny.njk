@@ -5,7 +5,7 @@ layout: _post
 #  size: 4
 ---
 <article>
-	<img src="/__static/images/{{ tags[1] }}-{{ title }}{% if tags[1] == "monoprint" %}.jpg{% elsif tags[1] == "undergrad" %}.png{% endif %}" alt="{{ tags[1] }}-{{ title }}" class="img-scaledown">
+	<img src="/__static/images/{{ tags[1] }}-{{ title }}{% if tags[1] == "monoprint" %}.jpg{% elif tags[1] == "undergrad" %}.png{% endif %}" alt="{{ tags[1] }}-{{ title }}" class="img-scaledown">
 	<h2>{{ title }}</h2>
 	{%- for tag in tags %}
 		<span>{{ tag }}</span>

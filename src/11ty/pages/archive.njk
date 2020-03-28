@@ -1,19 +1,19 @@
 ---
 title: archive
 ---
-{%- for category in archive %}
+{%- for key, arr in archive %}
 <section>
-	<h2>{{ category[0] }}</h2>
+	<h2>{{ key }}</h2>
 	<div class="twowide">
-		{%- for each in category[1] %}
-		<a href="{{ category[0] }}/{{ each }}" class="quarterd">
-			<img src="/__static/images/{{ category[0] }}-{{ each }}{% if category[0] == "monoprint" %}.jpg{% elsif category[0] == "undergrad" %}.png{% endif %}" alt="{{ category[0] }}-{{ each }}" class="img-scaledown">
+		{%- for each in arr %}
+		<a href="{{ key }}/{{ each }}" class="quarterd">
+			<img src="/__static/images/{{ key }}-{{ each }}{% if key == "monoprint" %}.jpg{% elif key == "undergrad" %}.png{% endif %}" alt="{{ key }}-{{ each }}" class="img-scaledown">
 		</a>
 		{%- endfor %}
 	</div>
 </section>
 {%- endfor %}
-{%- comment %}
+{#
 
 BAE recreate olde carousel
 
@@ -62,4 +62,4 @@ BAE olde lightbox
 	{% endfor %}
 	{% endfor %}
 
-{%- endcomment %}
+#}
