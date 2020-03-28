@@ -1,6 +1,3 @@
-frontmatter:
-	title: "press",
-
 "JULY 2019-",
 
 "Anna Elise Brabant | Artist Exhibition",

@@ -1,6 +1,3 @@
-frontmatter:
-	title: "CV"
-
 STUDIO:
 	2144 Bagley St, 
 	Detroit, MI

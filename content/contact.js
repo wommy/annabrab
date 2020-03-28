@@ -1,6 +1,3 @@
-frontmatter:
-	title: contact
-
 ANNA BRABANT
 Detroit MI, 48202
 
