@@ -6,6 +6,14 @@
   "repository": "git@github.com:wommy/annabrab.git",
   "author": "wommy <tom@technomad.media>",
   "license": "MIT",
+  "scripts": {
+    "tailwind": "postcss src/tailwind.css -o src/11ty/css/tailwind.css"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.7.5",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0"
+  },
   "devDependencies": {
     "@11ty/eleventy": "^0.9.0"
   }
