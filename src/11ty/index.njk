@@ -1,4 +1,12 @@
 ---
 layout: _base
 ---
-<h1>wommy working</h1>
+<div class="w-4/5 m-auto grid grid-cols-2 gap-16">
+	{%- for title, imgurl in work %}
+	<div class="my-auto">
+		<a href="/work/{{title}}">
+			<img src="{{imgurl}}" alt="{{title}}">
+		</a>
+	</div>
+	{%- endfor %}
+</div>
