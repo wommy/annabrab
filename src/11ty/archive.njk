@@ -1,0 +1,27 @@
+---
+layout: _base
+---
+<div>
+	<h3>monoprints</h3>
+	<div class="grid grid-cols-4 gap-8">
+		{%- for title, imgurl in archive.monoprint %}
+		<div class="my-auto">
+			<a href="/archive/{{title}}">
+				<img src="{{imgurl}}" alt="{{title}}">
+			</a>
+		</div>
+		{%- endfor %}
+	</div>
+</div>
+<div>
+	<h3>undergrad</h3>
+	<div class="grid grid-cols-4 gap-8">
+		{%- for title, imgurl in archive.undergrad %}
+		<div class="my-auto">
+			<a href="/archive/{{title}}">
+				<img src="{{imgurl}}" alt="{{title}}">
+			</a>
+		</div>
+		{%- endfor %}
+	</div>
+</div>
