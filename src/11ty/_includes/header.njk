@@ -1,7 +1,10 @@
 <header>
+	<h1>
+		<span>A</span>NNAB<span>R</span>ABAN<span>T</span>
+	</h1>
 	<nav>
-	{%- for key, url in { "home": "/" } %}
+		{%- for key, url in { "work": "/", "archive": "/archive/", "CV": "/cv/", "press": "/press/", "contact": "/contact/" } %}
 		<a {% if url == page.url %}class="active"{% else %}href="{{ url }}"{% endif %}>{{ key }}</a>
-	{%- endfor %}
+		{%- endfor %}
 	</nav>
 </header>
