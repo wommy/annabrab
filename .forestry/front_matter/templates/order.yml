@@ -18,5 +18,14 @@ fields:
   type: image_gallery
   config: {}
   label: gallery
+- name: blocks
+  type: blocks
+  label: blocks
+  template_types:
+  - work
+  - order
+  config:
+    min: 
+    max: 
 pages:
 - src/11ty/_data/work.json
