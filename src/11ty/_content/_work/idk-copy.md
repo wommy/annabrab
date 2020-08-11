@@ -1,6 +1,6 @@
 ---
 image: "/annabrab/idk_yf82no.jpg"
-title: idk-(copy)
+title: idk
 description: collage on canvas
 
 ---
