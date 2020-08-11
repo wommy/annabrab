@@ -14,5 +14,9 @@ fields:
       file: 
       path: ''
   label: order
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: gallery
 pages:
 - src/11ty/_data/work.json
