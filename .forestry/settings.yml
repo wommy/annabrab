@@ -9,6 +9,8 @@ sections:
   label: work
   create: documents
   match: "*.md"
+  templates:
+  - work
 upload_dir: annabrab
 public_path: https://res.cloudinary.com/wommy/image/upload
 front_matter_path: ''
