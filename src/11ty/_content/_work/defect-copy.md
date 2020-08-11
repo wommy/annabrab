@@ -1,6 +1,6 @@
 ---
 image: "/v1595088745/annabrab/defect_vtvklr.jpg"
-title: defect-(copy)
+title: defect
 description: ''
 
 ---
