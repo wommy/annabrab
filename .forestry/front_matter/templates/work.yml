@@ -17,3 +17,6 @@ fields:
   config:
     required: false
   label: description
+- name: landscape
+  type: boolean
+  label: landscape
