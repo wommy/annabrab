@@ -7,7 +7,6 @@ sections:
 - type: document
   path: src/11ty/_data/work.json
   label: order
-  match: "**/*"
 - type: directory
   path: src/11ty/_content/_work
   label: work
