@@ -1,3 +1,18 @@
-@import "tailwindcss/base";
+iframe,
+img,
+input,
+select,
+textarea {
+  @apply h-auto max-w-full;
+}
+
+label {
+	@apply block;
+}
+
+form label span {
+	@apply block;
+}
+
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
