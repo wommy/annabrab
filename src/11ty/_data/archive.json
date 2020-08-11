@@ -1,17 +1,17 @@
 {
 	"monoprint": {
-		"monoprint-1": "https://res.cloudinary.com/wommy/image/upload/v1581530952/annabrab/monoprint-1_ybofki.jpg",
-		"monoprint-2": "https://res.cloudinary.com/wommy/image/upload/v1581530953/annabrab/monoprint-2_hgr5fn.jpg",
-		"monoprint-3": "https://res.cloudinary.com/wommy/image/upload/v1581530956/annabrab/monoprint-3_toobbg.jpg",
-		"monoprint-4": "https://res.cloudinary.com/wommy/image/upload/v1581530956/annabrab/monoprint-4_d6b8um.jpg"
+		"monoprint-1": "annabrab/monoprint-1_ybofki.jpg",
+		"monoprint-2": "annabrab/monoprint-2_hgr5fn.jpg",
+		"monoprint-3": "annabrab/monoprint-3_toobbg.jpg",
+		"monoprint-4": "annabrab/monoprint-4_d6b8um.jpg"
 	},
 	"undergrad": {
-		"cognition": "https://res.cloudinary.com/wommy/image/upload/v1581530961/annabrab/undergrad-cognition_cuehal.png",
-		"fluid": "https://res.cloudinary.com/wommy/image/upload/v1581530964/annabrab/undergrad-fluid_ua4bvc.png",
-		"theUniverseIsExpanding": "https://res.cloudinary.com/wommy/image/upload/v1581530968/annabrab/undergrad-theUniverseIsExpanding_ef632o.png",
-		"undaPressha": "https://res.cloudinary.com/wommy/image/upload/v1581530967/annabrab/undergrad-undaPressha_jp0ypp.png",
-		"untitled1": "https://res.cloudinary.com/wommy/image/upload/v1581530970/annabrab/undergrad-untitled1_p8pkez.png",
-		"untitled2": "https://res.cloudinary.com/wommy/image/upload/v1581530972/annabrab/undergrad-untitled2_fydtlm.png",
-		"wading": "https://res.cloudinary.com/wommy/image/upload/v1581530972/annabrab/undergrad-wading_fzna24.png"
+		"cognition": "annabrab/undergrad-cognition_cuehal.png",
+		"fluid": "annabrab/undergrad-fluid_ua4bvc.png",
+		"theUniverseIsExpanding": "annabrab/undergrad-theUniverseIsExpanding_ef632o.png",
+		"undaPressha": "annabrab/undergrad-undaPressha_jp0ypp.png",
+		"untitled1": "annabrab/undergrad-untitled1_p8pkez.png",
+		"untitled2": "annabrab/undergrad-untitled2_fydtlm.png",
+		"wading": "annabrab/undergrad-wading_fzna24.png"
 	}
 }
