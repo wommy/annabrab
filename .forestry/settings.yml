@@ -4,9 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: src/11ty/_data/work.json
-  label: order
 - type: directory
   path: src/11ty/_content/_work
   label: work
@@ -14,6 +11,9 @@ sections:
   match: "*.md"
   templates:
   - work
+- type: document
+  path: src/11ty/_data/work.json
+  label: order
 upload_dir: annabrab
 public_path: https://res.cloudinary.com/wommy/image/upload
 front_matter_path: ''
