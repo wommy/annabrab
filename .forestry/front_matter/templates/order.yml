@@ -9,3 +9,5 @@ fields:
     min: 
     max: 
   label: order
+pages:
+- src/11ty/_data/work.json
