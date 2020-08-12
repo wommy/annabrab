@@ -2,18 +2,6 @@
 label: order
 hide_body: false
 fields:
-- name: order
-  type: list
-  config:
-    use_select: true
-    min: 
-    max: 
-    source:
-      type: documents
-      section: work
-      file: 
-      path: ''
-  label: order
 - name: work
   type: field_group_list
   fields:
@@ -32,6 +20,9 @@ fields:
     config:
       required: false
     label: description
+  - name: landscape
+    type: boolean
+    label: landscape
   config:
     min: 
     max: 
