@@ -5,6 +5,12 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: src/11ty/_data
+  label: data
+  create: documents
+  match: "**/*"
+  new_doc_ext: ".json"
+- type: directory
   path: src/11ty/_content/_work
   label: md
   create: documents
