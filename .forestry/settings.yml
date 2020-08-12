@@ -13,7 +13,7 @@ sections:
   - work
 - type: document
   path: src/11ty/_data/work.json
-  label: order
+  label: work
 upload_dir: annabrab
 public_path: https://res.cloudinary.com/wommy/image/upload
 front_matter_path: ''
