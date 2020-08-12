@@ -6,7 +6,7 @@ webhook_url:
 sections:
 - type: directory
   path: src/11ty/_content/_work
-  label: work
+  label: md
   create: documents
   match: "*.md"
   templates:
