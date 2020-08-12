@@ -18,14 +18,28 @@ fields:
   type: image_gallery
   config: {}
   label: gallery
-- name: blocks
-  type: blocks
-  label: blocks
-  template_types:
-  - work
-  - order
+- name: fg
+  type: field_group_list
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: image
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
+  - name: description
+    type: text
+    config:
+      required: false
+    label: description
   config:
     min: 
     max: 
+    labelField: title
+  label: fg
 pages:
 - src/11ty/_data/work.json
