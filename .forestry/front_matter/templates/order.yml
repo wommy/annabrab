@@ -30,4 +30,3 @@ fields:
   label: order
 pages:
 - src/11ty/_data/work.json
-- src/11ty/_data/work.json
