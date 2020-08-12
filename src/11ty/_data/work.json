@@ -17,8 +17,7 @@
     "celery",
     "trash",
     "barely sipped",
-    "untitled monoprint",
-    "idk"
+    "untitled monoprint"
   ],
   "gallery": [
     "/v1595088745/annabrab/defect_vtvklr.jpg",
@@ -49,6 +48,11 @@
     }
   ],
   "work": [
+    {
+      "image": "/v1581530952/annabrab/idk_yf82no.jpg",
+      "title": "idk",
+      "description": "collage on canvas"
+    },
     {
       "image": "/v1585947096/annabrab/data_yqfcpf.jpg",
       "title": "data",
