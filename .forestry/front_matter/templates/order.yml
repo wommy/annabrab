@@ -37,5 +37,10 @@ fields:
     max: 
     labelField: title
   label: work
+- name: template
+  type: include
+  config: {}
+  template: work
+  label: template
 pages:
 - src/11ty/_data/work.json
