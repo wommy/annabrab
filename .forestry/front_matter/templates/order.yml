@@ -1,6 +1,6 @@
 ---
-label: order
-hide_body: false
+label: work
+hide_body: true
 fields:
 - name: work
   type: field_group_list
