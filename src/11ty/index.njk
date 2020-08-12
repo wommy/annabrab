@@ -2,10 +2,10 @@
 layout: _base
 ---
 <div class="grid grid-cols-3 gap-16">
-	{%- for work in collections.work | reverse %}
-	<div class="my-auto{%- if work.data.landscape %} col-span-2{%- endif %}">
-		<a href="/work/{{work.data.title | slug}}">
-			<img src="https://res.cloudinary.com/wommy/image/upload/w_960{{work.data.image}}" alt="{{work.data.title}}">
+	{%- for each in work.order %}
+	<div class="my-auto{%- if each.landscape %} col-span-2{%- endif %}">
+		<a href="/work/{{each.title | slug}}">
+			<img src="https://res.cloudinary.com/wommy/image/upload/w_960{{each.image}}" alt="{{each.title}}">
 		</a>
 	</div>
 	{%- endfor %}
