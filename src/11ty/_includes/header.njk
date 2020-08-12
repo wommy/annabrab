@@ -1,9 +1,9 @@
-<header>
+<header class="flex items-baseline justify-between">
 	<h1>
 		<span>A</span>NNAB<span>R</span>ABAN<span>T</span>
 	</h1>
 	<nav>
-		{%- for key, url in { "work": "/", "archive": "/archive/", "CV": "/cv/", "press": "/press/", "contact": "/contact/" } %}
+		{%- for key, url in { "work": "/", "archive": "/archive/", "CV": "/cv/", "press": "/press/", "contact": "/contact/", "instagram": "//instagram.com/annebrab" } %}
 		<a {% if url == page.url %}class="active"{% else %}href="{{ url }}"{% endif %}>{{ key }}</a>
 		{%- endfor %}
 	</nav>
