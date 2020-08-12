@@ -48,72 +48,86 @@
     {
       "image": "/v1595088745/annabrab/defect_vtvklr.jpg",
       "title": "defect",
-      "description": ""
+      "description": "",
+      "landscape": false
     },
     {
       "image": "/v1595088751/annabrab/celery_vswuoz.jpg",
       "title": "celery",
-      "description": ""
+      "description": "",
+      "landscape": false
     },
     {
       "image": "/v1595088748/annabrab/trash_xwobvu.jpg",
       "title": "trash",
-      "description": ""
+      "description": "",
+      "landscape": false
     },
     {
       "image": "/v1581530959/annabrab/barely_sipped_x2zw1d.jpg",
       "title": "barely sipped",
-      "description": "charcoal, oil, acrylic on canvas"
+      "description": "charcoal, oil, acrylic on canvas",
+      "landscape": false
     },
     {
       "image": "/v1581530986/annabrab/untitled_monoprint_zrdyg0.jpg",
       "title": "untitled monoprint",
-      "description": "pastels, ink, monoprint"
+      "description": "pastels, ink, monoprint",
+      "landscape": false
     },
     {
       "image": "/v1581530952/annabrab/idk_yf82no.jpg",
       "title": "idk",
-      "description": "collage on canvas"
+      "description": "collage on canvas",
+      "landscape": false
     },
     {
       "image": "/v1585947096/annabrab/data_yqfcpf.jpg",
       "title": "data",
-      "description": "acrylic and oil pastel on linen"
+      "description": "acrylic and oil pastel on linen",
+      "landscape": false
     },
     {
       "image": "/v1585944269/annabrab/flu_10mb_asxlch.jpg",
       "title": "flu",
-      "description": "oil and graphite on canvas"
+      "description": "oil and graphite on canvas",
+      "landscape": true
     },
     {
       "image": "/v1581530972/annabrab/rivers_pcwkup.jpg",
       "title": "rivers",
-      "description": "oil on canvas"
+      "description": "oil on canvas",
+      "landscape": true
     },
     {
       "image": "/v1581530970/annabrab/error_ii_k4bfdv.jpg",
       "title": "error ii",
-      "description": "oil on canvas"
+      "description": "oil on canvas",
+      "landscape": false
     },
     {
       "image": "/v1581530971/annabrab/error_i_dq4lii.jpg",
       "title": "error i",
-      "description": "oil and graphite on canvas"
+      "description": "oil and graphite on canvas",
+      "landscape": false
     },
     {
       "image": "/v1581530964/annabrab/markings_lue5ot.jpg",
       "title": "markings",
-      "description": "oil on canvas"
+      "description": "oil on canvas",
+      "landscape": false
     },
     {
       "image": "/v1581530985/annabrab/swarm_dwznmj.jpg",
       "title": "swarm",
-      "description": "oil, collage, paste, glass on canvas"
+      "description": "oil, collage, paste, glass on canvas",
+      "landscape": false
     },
     {
       "image": "/v1581530983/annabrab/untitled_l0janl.jpg",
       "title": "untitled",
-      "description": "pastels, ink, monoprint"
+      "description": "pastels, ink, monoprint",
+      "landscape": false
     }
   ]
 }
