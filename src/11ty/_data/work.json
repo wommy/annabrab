@@ -44,5 +44,17 @@
     "/v1581530964/annabrab/markings_lue5ot.jpg",
     "/v1581530985/annabrab/swarm_dwznmj.jpg",
     "/v1581530983/annabrab/untitled_l0janl.jpg"
+  ],
+  "blocks": [
+    {
+      "template": "work"
+    }
+  ],
+  "fg": [
+    {
+      "image": "/v1595088745/annabrab/defect_vtvklr.jpg",
+      "description": "",
+      "title": "defect"
+    }
   ]
 }
