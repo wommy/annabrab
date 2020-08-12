@@ -4,16 +4,21 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: directory
-  path: src/11ty/_content/_work
-  label: md
-  create: documents
-  match: "*.md"
-  templates:
-  - work
 - type: document
   path: src/11ty/_data/work.json
   label: work
+- type: document
+  path: src/11ty/cv.md
+  label: cv
+  match: "**/*"
+- type: document
+  path: src/11ty/press.md
+  label: press
+  match: "**/*"
+- type: document
+  path: src/11ty/contact.md
+  label: contact
+  match: "**/*"
 upload_dir: annabrab
 public_path: https://res.cloudinary.com/wommy/image/upload
 front_matter_path: ''
