@@ -2,7 +2,7 @@
 label: work
 hide_body: true
 fields:
-- name: work
+- name: order
   type: field_group_list
   fields:
   - name: image
@@ -27,6 +27,7 @@ fields:
     min: 
     max: 
     labelField: title
-  label: work
+  label: order
 pages:
+- src/11ty/_data/work.json
 - src/11ty/_data/work.json
