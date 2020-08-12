@@ -1,6 +1,6 @@
 ---
 label: order
-hide_body: true
+hide_body: false
 fields:
 - name: order
   type: list
