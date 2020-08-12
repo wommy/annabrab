@@ -14,7 +14,6 @@
   "swarm": "annabrab/swarm_dwznmj.jpg",
   "untitled": "annabrab/untitled_l0janl.jpg",
   "order": [
-    "defect",
     "celery",
     "trash",
     "barely sipped",
@@ -58,6 +57,11 @@
     }
   ],
   "work": [
+    {
+      "image": "/v1595088751/annabrab/celery_vswuoz.jpg",
+      "title": "celery",
+      "description": ""
+    },
     {
       "image": "/v1595088745/annabrab/defect_vtvklr.jpg",
       "title": "defect",
