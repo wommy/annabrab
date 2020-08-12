@@ -14,11 +14,7 @@ fields:
       file: 
       path: ''
   label: order
-- name: gallery
-  type: image_gallery
-  config: {}
-  label: gallery
-- name: fg
+- name: work
   type: field_group_list
   fields:
   - name: image
@@ -40,6 +36,6 @@ fields:
     min: 
     max: 
     labelField: title
-  label: fg
+  label: work
 pages:
 - src/11ty/_data/work.json
