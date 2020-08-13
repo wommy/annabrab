@@ -6,6 +6,14 @@ textarea {
   @apply h-auto max-w-full;
 }
 
+header nav + nav {
+	@apply ml-10;
+}
+
+header nav a + a {
+	@apply ml-2;
+}
+
 label {
 	@apply block;
 }
