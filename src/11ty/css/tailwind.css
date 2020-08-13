@@ -7,6 +7,14 @@ textarea {
   max-width: 100%;
 }
 
+header nav + nav {
+  margin-left: 2.5rem;
+}
+
+header nav a + a {
+  margin-left: 0.5rem;
+}
+
 label {
   display: block;
 }
