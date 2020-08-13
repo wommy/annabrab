@@ -6,6 +6,19 @@ textarea {
   @apply h-auto max-w-full;
 }
 
+header nav a:link,
+header nav a:visited {
+	@apply text-black no-underline;
+}
+
+header nav a:hover {
+	@apply underline;
+}
+
+header nav a.active {
+	@apply uppercase;
+}
+
 header nav + nav {
 	@apply ml-10;
 }

@@ -7,6 +7,22 @@ textarea {
   max-width: 100%;
 }
 
+header nav a:link,
+header nav a:visited {
+  --text-opacity: 1;
+  color: #000;
+  color: rgba(0, 0, 0, var(--text-opacity));
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header nav a.active {
+  text-transform: uppercase;
+}
+
 header nav + nav {
   margin-left: 2.5rem;
 }
