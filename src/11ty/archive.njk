@@ -3,7 +3,7 @@ layout: _base
 ---
 <div>
 	<h3>monoprints</h3>
-	<div class="grid grid-cols-4 gap-8">
+	<div class="grid grid-cols-2 gap-4 sm:grid-cols-4 md:gap-8">
 		{%- for title, imgurl in archive.monoprint %}
 		<div class="my-auto">
 			<a href="https://res.cloudinary.com/wommy/image/upload/{{imgurl}}">
@@ -15,7 +15,7 @@ layout: _base
 </div>
 <div>
 	<h3>undergrad</h3>
-	<div class="grid grid-cols-4 gap-8">
+	<div class="grid grid-cols-2 gap-4 md:grid-cols-4 md:gap-8">
 		{%- for title, imgurl in archive.undergrad %}
 		<div class="my-auto">
 			<a href="https://res.cloudinary.com/wommy/image/upload/{{imgurl}}">
