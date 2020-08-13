@@ -1,14 +1,14 @@
 ---
 layout: _base
 ---
-<div class="flex flex-col w-full md:justify-between md:flex-row-reverse">
+<div class="flex flex-col w-full md:justify-evenly md:flex-row-reverse">
 	<div class="max-w-md mx-auto md:w-32 md:mt-12 md:ml-4 md:mr-0">
 		<h3>{{title}}</h3>
 		<p>{{description}}</p>
 	</div>
-	<div class="md:w-10/12">
+	<div>
 		<a href="https://res.cloudinary.com/wommy/image/upload/{{image}}">
-			<img src="https://res.cloudinary.com/wommy/image/upload/h_960/{{image}}" alt="{{title}}">
+			<img src="https://res.cloudinary.com/wommy/image/upload/h_800/{{image}}" alt="{{title}}">
 		</a>
 	</div>
 </div>
