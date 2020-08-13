@@ -19,12 +19,20 @@ header nav a.active {
 	@apply uppercase;
 }
 
-header nav + nav {
-	@apply ml-10;
+header nav a + a {
+		@apply ml-1;
+	}
+
+@screen sm {
+	header nav a + a {
+		@apply ml-2;
+	}
 }
 
-header nav a + a {
-	@apply ml-2;
+@screen md {
+	header nav div + div {
+		@apply ml-8;
+	}
 }
 
 label {

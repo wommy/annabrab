@@ -23,12 +23,20 @@ header nav a.active {
   text-transform: uppercase;
 }
 
-header nav + nav {
-  margin-left: 2.5rem;
+header nav a + a {
+  margin-left: 0.25rem;
 }
 
-header nav a + a {
-  margin-left: 0.5rem;
+@media (min-width: 640px) {
+  header nav a + a {
+    margin-left: 0.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  header nav div + div {
+    margin-left: 2rem;
+  }
 }
 
 label {
