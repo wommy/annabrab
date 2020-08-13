@@ -3,7 +3,7 @@
 		<span>A</span>NNAB<span>R</span>ABAN<span>T</span>
 	</h1>
 	<div class="flex">
-		{%- for group in [{ "work": "/", "archive": "/archive/"},{ "CV": "/cv/", "press": "/press/", "contact": "/contact/"},{ "instagram": "//instagram.com/annebrab" }] %}
+		{%- for group in [{ "work": "/", "archive": "/archive/"},{ "cv": "/cv/", "press": "/press/", "contact": "/contact/"},{ "instagram": "//instagram.com/annebrab" }] %}
 		<nav>
 			{%- for key, url in group %}
 			<a {% if url == page.url %}class="active"{% else %}href="{{ url }}"{% endif %}>{{ key }}</a>
