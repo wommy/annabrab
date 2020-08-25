@@ -12,7 +12,7 @@ sections:
   label: md
   create: documents
   match: "*.md"
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - work
 - type: document

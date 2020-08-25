@@ -20,3 +20,5 @@ fields:
 - name: landscape
   type: boolean
   label: landscape
+pages:
+- src/11ty/_content/_work/errors-iii.md
