@@ -7,6 +7,14 @@ sections:
 - type: document
   path: src/11ty/_data/work.json
   label: work
+- type: directory
+  path: src/11ty/_content/_work
+  label: md
+  create: documents
+  match: "*.md"
+  new_doc_ext: ".md"
+  templates:
+  - work
 - type: document
   path: src/11ty/cv.md
   label: cv
