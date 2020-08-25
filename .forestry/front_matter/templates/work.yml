@@ -20,5 +20,14 @@ fields:
 - name: landscape
   type: boolean
   label: landscape
+- name: year
+  type: datetime
+  label: year
+  description: ''
+  config:
+    required: false
+    date_format: M/YYYY
+    time_format: 
+    display_utc: false
 pages:
 - src/11ty/_content/_work/errors-iii.md
