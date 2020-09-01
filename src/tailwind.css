@@ -24,14 +24,9 @@ header nav a + a {
 	}
 
 @screen sm {
-	header nav a + a {
-		@apply ml-2;
-	}
-}
-
-@screen md {
+	header nav a + a,
 	header nav div + div {
-		@apply ml-4;
+		@apply ml-2;
 	}
 }
 

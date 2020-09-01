@@ -28,14 +28,9 @@ header nav a + a {
 }
 
 @media (min-width: 640px) {
-  header nav a + a {
+  header nav a + a,
+	header nav div + div {
     margin-left: 0.5rem;
-  }
-}
-
-@media (min-width: 768px) {
-  header nav div + div {
-    margin-left: 1rem;
   }
 }
 
