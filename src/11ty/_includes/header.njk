@@ -2,7 +2,7 @@
 	<h1 class="my-0 w-64 mr-auto sm:mx-auto">
 		<span>A</span>NNAB<span>R</span>ABAN<span>T</span>
 	</h1>
-	<nav class="flex w-full sm:w-3/5 justify-around max-w-md ml-auto md:mx-auto">
+	<nav class="flex w-full sm:w-3/5 justify-evenly max-w-sm ml-auto md:mx-auto">
 		{%- for group in [{ "work": "/", "archive": "/archive/"},{ "cv": "/cv/", "press": "/press/", "contact": "/contact/"},{ "instagram": "//instagram.com/annebrab" }] %}
 		<div class="flex justify-evenly">
 			{%- for key, url in group %}
@@ -12,3 +12,4 @@
 		{%- endfor %}
 	</nav>
 </header>
+ 

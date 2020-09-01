@@ -35,7 +35,7 @@ header nav a + a {
 
 @media (min-width: 768px) {
   header nav div + div {
-    margin-left: 2rem;
+    margin-left: 1rem;
   }
 }
 
