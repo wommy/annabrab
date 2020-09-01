@@ -34,10 +34,7 @@ header nav a + a {
   }
 }
 
-label {
-  display: block;
-}
-
+label,
 form label span {
   display: block;
 }

@@ -30,10 +30,7 @@ header nav a + a {
 	}
 }
 
-label {
-	@apply block;
-}
-
+label,
 form label span {
 	@apply block;
 }
