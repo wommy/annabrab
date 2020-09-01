@@ -35,5 +35,13 @@ form label span {
 	@apply block;
 }
 
+#cv, #press {
+	@apply max-w-2xl mx-auto;
+}
+
+#contact {
+	@apply flex flex-col items-center;
+}
+
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";

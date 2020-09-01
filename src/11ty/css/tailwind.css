@@ -39,6 +39,18 @@ form label span {
   display: block;
 }
 
+#cv, #press {
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .container {
   width: 100%;
 }

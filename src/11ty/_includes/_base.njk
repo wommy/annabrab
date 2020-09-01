@@ -12,7 +12,7 @@
 </head>
 <body class="m-2 sm:mt-4 sm:mx-auto sm:w-11/12 lg:w-5/6 xl:4/5">
 {%- include "header.njk" %}
-<main>
+<main id="{{ page.fileSlug }}">
 {{ content | safe }}
 </main>
 <script></script>
