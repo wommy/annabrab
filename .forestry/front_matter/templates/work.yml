@@ -31,4 +31,5 @@ fields:
     display_utc: false
 pages:
 - src/11ty/_content/_work/errors-iii.md
+- src/11ty/_content/_work/scrub.md
 - src/11ty/_content/_work/trash-painting.md
