@@ -1,5 +1,6 @@
 ---
 layout: _base
+
 ---
 ### -EDUCATION-
 
@@ -13,6 +14,8 @@ Lake Shore High School,
 St. Clair Shores, MI
 
 ### -EXHIBITIONS-
+
+2021-JUN Art Mile Detroit Group Show, Hard Gallery, Hamtramck MI
 
 2019-JUN
 Anna Brabant: Paintings and Prints,
