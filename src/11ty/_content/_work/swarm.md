@@ -1,6 +1,6 @@
 ---
 image: "/annabrab/swarm_dwznmj.jpg"
-title: swarm
-description: oil, collage, paste, glass on canvas
+title: SWARM, 2015
+description: OIL, COLLAGE, GLASS ON CANVAS 24" X 36"
 
 ---
