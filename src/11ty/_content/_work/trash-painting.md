@@ -1,5 +1,5 @@
 ---
-image: "/v1613000980/annabrab/2AE30EB5-07AD-46E6-9559-9AD42F52F71E_fx1r9c.jpg"
+image: "/v1627840516/annabrab/GAB_5773-Edit_copy_wtedeh.jpg"
 title: TRASH PAINTING 2020
 description: SPRAY PAINT, ENAMEL, PEN ON CANVAS 24" X 31"
 landscape: false
