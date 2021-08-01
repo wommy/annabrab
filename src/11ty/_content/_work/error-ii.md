@@ -1,6 +1,6 @@
 ---
 image: "/annabrab/error_ii_k4bfdv.jpg"
-title: error ii
-description: oil on canvas
+title: ERROR II, 2017
+description: "OIL, GRAPHITE ON CANVAS\t18' X 24\""
 
 ---
