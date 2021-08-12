@@ -1,5 +1,0 @@
-{
-	"layout": "_post",
-	"permalink": "/work/{{title | slug}}/",
-	"tags": "work"
-}
