@@ -1,11 +1,11 @@
 ---
 layout: _base
 ---
-<div class="lg:mt-8 grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-8 md:gap-12 lg:gap-16">
-	{%- for each in work.order %}
+<div class="lg:mt-8 gap-4 sm:gap-8 md:gap-12 lg:gap-16 | grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+	{%- for each in artwork %}
 	<div class="my-auto{%- if each.landscape %} col-span-2{%- endif %}">
-		<a href="/work/{{each.title | slug}}">
-			<img src="https://res.cloudinary.com/wommy/image/upload/w_960{{each.image}}" alt="{{each.title}}">
+		<a href="/work/{{each.title | slug}}-{{ each.year | onlyYear }}">
+			<img src="https://res.cloudinary.com/annabrabant/image/upload/w_960/{{each.image}}" alt="{{each.title}}">
 		</a>
 	</div>
 	{%- endfor %}

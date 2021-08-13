@@ -7,6 +7,7 @@
   "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
+    "@sanity/client": "^2.14.0",
     "autoprefixer": "^9.8.5",
     "postcss-cli": "^7.1.1",
     "tailwindcss": "^1.5.1"
